@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "Classe": 2,
+    "Admin": 2
+  },
+  "models": {
+    "Classe": {},
+    "Admin": {}
+  }
+}
