@@ -16,13 +16,20 @@ export class Evaluation extends Entity {
     type: 'date',
     required: true,
   })
-  date: string;
+  date: Date;
 
   @property({
     type: 'string',
     required: true,
   })
   etat: string;
+
+  @property({
+    type: 'string',
+    required: true,
+  })
+  type: string;
+
   @belongsTo(() => Classe, {name: 'classe_evaluation'})
   classeId: number;
 

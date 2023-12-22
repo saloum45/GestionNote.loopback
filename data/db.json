@@ -2,8 +2,8 @@
   "ids": {
     "Classe": 13,
     "Admin": 3,
-    "Apprenant": 4,
-    "Professeur": 4,
+    "Apprenant": 7,
+    "Professeur": 7,
     "Matiere": 13
   },
   "models": {
@@ -18,9 +18,14 @@
     },
     "Apprenant": {
       "1": "{\"matricule\":\"apprenant1\",\"nom\":\"apprenant\",\"prenom\":\"apprenant\",\"email\":\"apprenant@gmail.com\",\"numero\":\"778289463\",\"pass\":\"passer1234\",\"photo\":\"photo\",\"etat\":\"actif\",\"classeId\":2,\"id\":1}",
+      "4": "{\"matricule\":\"mat0.6162149061463581\",\"nom\":\"malick\",\"prenom\":\"salem\",\"email\":\"saloumfall45@gmail.com\",\"numero\":\"778286793\",\"pass\":\"passer1234\",\"photo\":\"img\",\"etat\":\"actif\",\"classeId\":10,\"id\":4}",
+      "5": "{\"matricule\":\"mat0.4379570007036374\",\"nom\":\"fall\",\"prenom\":\"moussa\",\"email\":\"moussa@gmail.com\",\"numero\":\"778549632\",\"pass\":\"passer1234\",\"photo\":\"img\",\"etat\":\"actif\",\"classeId\":11,\"id\":5}",
+      "6": "{\"matricule\":\"mat0.9648301588479864\",\"nom\":\"diop\",\"prenom\":\"coumba\",\"email\":\"diop@gmail.com\",\"numero\":\"789632146\",\"pass\":\"passer1234\",\"photo\":\"img\",\"etat\":\"actif\",\"classeId\":11,\"id\":6}"
     },
     "Professeur": {
-      "3": "{\"image\":\"img\",\"nom\":\"professeur\",\"prenom\":\"professeur\",\"email\":\"professeur@gmail.com\",\"telephone\":\"778549632\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":1,\"classeId\":2,\"id\":3}"
+      "3": "{\"image\":\"img\",\"nom\":\"professeur\",\"prenom\":\"professeur\",\"email\":\"professeur@gmail.com\",\"telephone\":\"778549632\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":1,\"classeId\":2,\"id\":3}",
+      "5": "{\"image\":\"img\",\"nom\":\"nidone\",\"prenom\":\"demba\",\"email\":\"demba@gmail.com\",\"telephone\":\"778289796\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":11,\"classeId\":9,\"id\":5}",
+      "6": "{\"image\":\"img\",\"nom\":\"diouf\",\"prenom\":\"karama\",\"email\":\"diouf@gmail.com\",\"telephone\":\"774125478\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":10,\"classeId\":10,\"id\":6}"
     },
     "Matiere": {
       "1": "{\"libelle\":\"SVT\",\"etat\":\"actif\",\"id\":1}",
