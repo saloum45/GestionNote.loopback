@@ -4,3 +4,5 @@ export * from './matiere.model';
 export * from './professeur.model';
 export * from './evaluation.model';
 export * from './admin.model';
+export * from './role.model';
+export * from './note.model';

@@ -1,10 +1,34 @@
 {
   "ids": {
-    "Classe": 2,
-    "Admin": 2
+    "Classe": 13,
+    "Admin": 3,
+    "Apprenant": 4,
+    "Professeur": 4,
+    "Matiere": 13
   },
   "models": {
-    "Classe": {},
-    "Admin": {}
+    "Classe": {
+      "9": "{\"nom\":\"Seconde\",\"description\":\"classe\",\"etat\":\"actif\",\"id\":9}",
+      "10": "{\"nom\":\"Terminale\",\"description\":\"classe\",\"etat\":\"actif\",\"id\":10}",
+      "11": "{\"nom\":\"Troisieme\",\"description\":\"classe\",\"etat\":\"actif\",\"id\":11}",
+      "12": "{\"nom\":\"Sixieme\",\"description\":\"classe\",\"etat\":\"actif\",\"id\":12}"
+    },
+    "Admin": {
+      "2": "{\"nom\":\"admin\",\"prenom\":\"admin\",\"email\":\"admin@gmail.com\",\"pass\":\"passer1234\",\"telephone\":\"778289632\",\"id\":2}"
+    },
+    "Apprenant": {
+      "1": "{\"matricule\":\"apprenant1\",\"nom\":\"apprenant\",\"prenom\":\"apprenant\",\"email\":\"apprenant@gmail.com\",\"numero\":\"778289463\",\"pass\":\"passer1234\",\"photo\":\"photo\",\"etat\":\"actif\",\"classeId\":2,\"id\":1}",
+    },
+    "Professeur": {
+      "3": "{\"image\":\"img\",\"nom\":\"professeur\",\"prenom\":\"professeur\",\"email\":\"professeur@gmail.com\",\"telephone\":\"778549632\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":1,\"classeId\":2,\"id\":3}"
+    },
+    "Matiere": {
+      "1": "{\"libelle\":\"SVT\",\"etat\":\"actif\",\"id\":1}",
+      "8": "{\"libelle\":\"PC\",\"etat\":\"actif\",\"id\":8}",
+      "9": "{\"libelle\":\"MATH\",\"etat\":\"actif\",\"id\":9}",
+      "10": "{\"libelle\":\"PHILO\",\"etat\":\"actif\",\"id\":10}",
+      "11": "{\"libelle\":\"FRANCAIS\",\"etat\":\"actif\",\"id\":11}",
+      "12": "{\"libelle\":\"HG\",\"etat\":\"actif\",\"id\":12}"
+    }
   }
 }

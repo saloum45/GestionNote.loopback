@@ -44,6 +44,11 @@ export class Professeur extends Entity {
     required: true,
   })
   etat: string;
+  @property({
+    type: 'string',
+    required: true,
+  })
+  pass: string;
 
   @belongsTo(() => Matiere, {name: 'matiere_professeur'})
   matiereId: number;

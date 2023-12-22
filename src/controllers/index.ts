@@ -13,3 +13,8 @@ export * from './professeur-classe.controller';
 export * from './classe-professeur.controller';
 export * from './evaluation-classe.controller';
 export * from './evaluation-matiere.controller';
+export * from './note.controller';
+export * from './evaluation-note.controller';
+export * from './note-evaluation.controller';
+export * from './apprenant-note.controller';
+export * from './note-apprenant.controller';
