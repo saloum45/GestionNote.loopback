@@ -13,10 +13,10 @@ export class Evaluation extends Entity {
   id?: number;
 
   @property({
-    type: 'date',
+    type: 'string',
     required: true,
   })
-  date: Date;
+  date: string;
 
   @property({
     type: 'string',

@@ -4,7 +4,8 @@
     "Admin": 3,
     "Apprenant": 7,
     "Professeur": 7,
-    "Matiere": 13
+    "Matiere": 15,
+    "Evaluation": 4
   },
   "models": {
     "Classe": {
@@ -33,7 +34,14 @@
       "9": "{\"libelle\":\"MATH\",\"etat\":\"actif\",\"id\":9}",
       "10": "{\"libelle\":\"PHILO\",\"etat\":\"actif\",\"id\":10}",
       "11": "{\"libelle\":\"FRANCAIS\",\"etat\":\"actif\",\"id\":11}",
-      "12": "{\"libelle\":\"HG\",\"etat\":\"actif\",\"id\":12}"
+      "12": "{\"libelle\":\"HG\",\"etat\":\"actif\",\"id\":12}",
+      "13": "{\"libelle\":\"ANGLAIS\",\"etat\":\"actif\",\"id\":13}",
+      "14": "{\"libelle\":\"kkk\",\"etat\":\"actif\",\"id\":14}"
+    },
+    "Evaluation": {
+      "1": "{\"date\":\"2023-12-23\",\"etat\":\"venir\",\"type\":\"devoir\",\"classeId\":1,\"matiereId\":1,\"id\":1}",
+      "2": "{\"date\":\"2023-12-23\",\"etat\":\"venir\",\"type\":\"devoir\",\"classeId\":1,\"matiereId\":1,\"id\":2}",
+      "3": "{\"date\":\"2023-12-24\",\"etat\":\"venir\",\"type\":\"exam\",\"classeId\":1,\"matiereId\":1,\"id\":3}"
     }
   }
 }
