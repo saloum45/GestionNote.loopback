@@ -5,7 +5,7 @@
     "Apprenant": 7,
     "Professeur": 7,
     "Matiere": 15,
-    "Evaluation": 4
+    "Evaluation": 5
   },
   "models": {
     "Classe": {
@@ -25,7 +25,7 @@
     },
     "Professeur": {
       "3": "{\"image\":\"img\",\"nom\":\"professeur\",\"prenom\":\"professeur\",\"email\":\"professeur@gmail.com\",\"telephone\":\"778549632\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":1,\"classeId\":2,\"id\":3}",
-      "5": "{\"image\":\"img\",\"nom\":\"nidone\",\"prenom\":\"demba\",\"email\":\"demba@gmail.com\",\"telephone\":\"778289796\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":11,\"classeId\":9,\"id\":5}",
+      "5": "{\"image\":\"img\",\"nom\":\"nidone\",\"prenom\":\"demba\",\"email\":\"demba@gmail.com\",\"telephone\":\"778289796\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":11,\"classeId\":11,\"id\":5}",
       "6": "{\"image\":\"img\",\"nom\":\"diouf\",\"prenom\":\"karama\",\"email\":\"diouf@gmail.com\",\"telephone\":\"774125478\",\"etat\":\"actif\",\"pass\":\"passer1234\",\"matiereId\":10,\"classeId\":10,\"id\":6}"
     },
     "Matiere": {
@@ -41,7 +41,9 @@
     "Evaluation": {
       "1": "{\"date\":\"2023-12-23\",\"etat\":\"venir\",\"type\":\"devoir\",\"classeId\":1,\"matiereId\":1,\"id\":1}",
       "2": "{\"date\":\"2023-12-23\",\"etat\":\"venir\",\"type\":\"devoir\",\"classeId\":1,\"matiereId\":1,\"id\":2}",
-      "3": "{\"date\":\"2023-12-24\",\"etat\":\"venir\",\"type\":\"exam\",\"classeId\":1,\"matiereId\":1,\"id\":3}"
+      "3": "{\"date\":\"2023-12-24\",\"etat\":\"venir\",\"type\":\"exam\",\"classeId\":1,\"matiereId\":1,\"id\":3}",
+      "4": "{\"date\":\"2024-01-07\",\"etat\":\"venir\",\"type\":\"exam\",\"classeId\":1,\"matiereId\":1,\"id\":4}",
+      "5": "{\"date\":\"2024-01-07\",\"etat\":\"venir\",\"type\":\"exam\",\"classeId\":11,\"matiereId\":11,\"id\":4}"
     }
   }
 }
